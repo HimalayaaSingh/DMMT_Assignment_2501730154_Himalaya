@@ -1,0 +1,39 @@
+===== BST =====
+Inorder traversal:
+20 30 40 50 60 70 80 
+Searching 20: True
+Searching 90: False
+After deleting 20:
+30 40 50 60 70 80 
+After deleting 60:
+30 40 50 65 70 80 
+After deleting 30:
+40 50 65 70 80 
+
+===== GRAPH =====
+Adjacency List:
+A -> [('B', 2), ('C', 4)]
+B -> [('D', 7), ('E', 3)]
+C -> [('E', 1), ('F', 8)]
+D -> [('F', 5)]
+E -> [('D', 2), ('F', 6)]
+BFS starting from A:
+A B C D E F 
+DFS starting from A:
+A B D F E C 
+
+===== HASH TABLE =====
+Hash Table:
+0 -> [(10, 'Value10'), (15, 'Value15'), (20, 'Value20')]
+1 -> []
+2 -> [(7, 'Value7'), (12, 'Value12')]
+3 -> []
+4 -> []
+Getting 15: Value15
+Getting 7: Value7
+After deleting 15:
+0 -> [(10, 'Value10'), (20, 'Value20')]
+1 -> []
+2 -> [(7, 'Value7'), (12, 'Value12')]
+3 -> []
+4 -> []
